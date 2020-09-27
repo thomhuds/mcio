@@ -111,7 +111,7 @@ impl Out for Ping {
 pub struct Response {
     pub version: ServerVersion,
     pub players: ServerPlayers,
-    pub favicon: String
+    pub favicon: Option<String>,
 }
 
 #[derive(Deserialize, Debug)]
