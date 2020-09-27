@@ -1,6 +1,4 @@
 #![crate_name = "mcio"]
-#![feature(external_doc)]
-#![doc(include = "../README.md")]
 
 /// Minecraft packets
 pub mod packet;
